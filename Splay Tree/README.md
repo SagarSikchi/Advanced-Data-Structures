@@ -1,20 +1,22 @@
-# Red-Black Tree
+# Splay Tree
 
-A red-black tree is a kind of self-balancing binary search tree where each node has an extra bit, and that bit is often interpreted as the colour (red or black). These colours are used to ensure that the tree remains balanced during insertions and deletions. Although the balance of the tree is not perfect, it is good enough to reduce the searching time and maintain it around O(log n) time, where n is the total number of elements in the tree. This tree was invented in 1972 by Rudolf Bayer. 
-
-It must be noted that as each node requires only 1 bit of space to store the colour information, these types of trees show identical memory footprint to the classic (uncoloured) binary search tree. 
+A splay tree is a binary search tree with the additional property that recently accessed elements are quick to access again. Like self-balancing binary search trees, a splay tree performs basic operations such as insertion, look-up and removal in O(log n) amortized time. For many sequences of non-random operations, splay trees perform better than other search trees, even performing better than O(log n) for sufficiently non-random patterns, all without requiring advance knowledge of the pattern. The splay tree was invented by Daniel Sleator and Robert Tarjan in 1985. 
 
 To knw more about RB Tree, checkout below links:
 
-- [Geeksforgeeks Article](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
-- [Video on RB Tree](https://www.youtube.com/watch?v=3RQtq7PDHog&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=64&t=1181s)
+- [Geeksforgeeks Article (Search Operation)](https://www.geeksforgeeks.org/splay-tree-set-1-insert/)
+- [Geeksforgeeks Article (Insert Operation)](https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/)
+- [Geeksforgeeks Article (Delete Operation)](https://www.geeksforgeeks.org/splay-tree-set-3-delete/?ref=rp)
+- [Video on Splay Tree](https://www.youtube.com/watch?v=qMmqOHr75b8)
 
 
 The Operations implemented into this program are:  
 
+- Search Operation
+- Splay Operation
 - Insertion
 - Deletion
-- Display with and without Color Codes
+- Display Preorder Traversal of the Splay Tree
 
 ### Output
 
