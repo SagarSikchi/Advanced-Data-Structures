@@ -4,7 +4,7 @@ A red-black tree is a kind of self-balancing binary search tree where each node 
 
 It must be noted that as each node requires only 1 bit of space to store the colour information, these types of trees show identical memory footprint to the classic (uncoloured) binary search tree. 
 
-To knw more about RB Tree, checkout below links:
+To know more about RB Tree, checkout below links:
 
 - [Geeksforgeeks Article](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
 - [Video on RB Tree](https://www.youtube.com/watch?v=3RQtq7PDHog&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=64&t=1181s)
